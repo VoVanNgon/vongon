@@ -90,12 +90,12 @@ class _CalculatorPageState extends State<CalculatorPage> {
           children: [
             TextField(
               controller: _aController,
-              decoration: InputDecoration(labelText: 'Nhập số A'),
+              decoration: InputDecoration(labelText: 'Nhập số A: '),
               keyboardType: TextInputType.number,
             ),
             TextField(
               controller: _bController,
-              decoration: InputDecoration(labelText: 'Nhập số B'),
+              decoration: InputDecoration(labelText: 'Nhập số B: '),
               keyboardType: TextInputType.number,
             ),
             SizedBox(height: 20),
